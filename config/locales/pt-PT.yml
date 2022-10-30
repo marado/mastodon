@@ -11,8 +11,8 @@ pt-PT:
     apps: Aplicações móveis
     apps_platforms: Usar o Mastodon a partir do iOS, Android e outras plataformas
     browse_directory: Navegar pelo directório de perfis e filtrar por interesses
-    browse_local_posts: Visualizar as postas públicas desta instância em tempo real
-    browse_public_posts: Visualizar as postas públicas do Mastodon em tempo real
+    browse_local_posts: Visualizar as publicações desta instância em tempo real
+    browse_public_posts: Visualizar as publicações do fediverso em tempo real
     contact: Contacto
     contact_missing: Não configurado
     contact_unavailable: n.d.
@@ -30,7 +30,7 @@ pt-PT:
     logout_before_registering: Já tens sessão iniciada.
     privacy_policy: Política de Privacidade
     rules: Regras da instância
-    rules_html: 'Abaixo está um resumo das regras que precisas de seguir se pretendes ter uma conta nesta instância:'
+    rules_html: 'Abaixo está um resumo das regras a seguir se pretendes ter uma conta nesta instância:'
     see_whats_happening: O que está a acontecer
     server_stats: 'Estatísticas da instância:'
     source_code: Código fonte
@@ -170,8 +170,8 @@ pt-PT:
       perform_full_suspension: Suspender completamente
       previous_strikes: Punições anteriores
       previous_strikes_description_html:
-        one: Esta conta tem <strong>1</strong> punição.
-        other: Esta conta tem <strong>%{count}</strong> punições.
+        one: Esta conta tem <strong>1</strong> advertência.
+        other: Esta conta tem <strong>%{count}</strong> advertências.
       promote: Promover
       protocol: Protocolo
       public: Público
@@ -610,14 +610,14 @@ pt-PT:
       action_log: Registo de auditoria
       action_taken_by: Ação tomada por
       actions:
-        delete_description_html: As publicações denunciadas serão eliminadas e uma punição será registada para ajudá-lo a escalar ações em futuras infrações pela mesma conta.
-        mark_as_sensitive_description_html: A media nas publicações denunciadas será marcada como sensível e uma punição será registada para ajudá-lo a escalar ações em futuras infrações pela mesma conta.
+        delete_description_html: As publicações denunciadas vão ser eliminadas e uma advertência vai ser registada para ajudar a escalar acções em futuras infracções.
+        mark_as_sensitive_description_html: Os media nas publicações denunciadas vão ser marcados como sensíveis e uma advertência será registada para ajudar a escalar ações em futuras infracções.
         other_description_html: Ver mais opções para controlar o comportamento da conta e personalizar a comunicação para a conta denunciada.
-        resolve_description_html: Nenhuma ação será tomada contra a conta denunciada, nenhuma punição será registada, e a denuncia será fechada.
+        resolve_description_html: Nenhuma ação vai ser tomada contra a conta denunciada, nenhuma advertência será registada, e a denuncia será fechada.
         silence_description_html: O perfil será visível apenas para aqueles que já o seguem ou o procurem manualmente, limitando severamente o seu alcance. Pode sempre ser revertido.
         suspend_description_html: O perfil e todo o seu conteúdo tornar-se-ão inacessíveis até serem eventualmente apagados. A interacção com a conta será impossível. Reversível no prazo de 30 dias.
-      actions_description_html: Decide a ação a tomar para resolver esta denúncia. Se decidir por uma ação punitiva contra a conta denunciada, um e-mail de notificação será enviado, excetuando quando selecionada a categoria <strong>Spam</strong>.
-      add_to_report: Adicionar mais à denúncia
+      actions_description_html: Decide a acção a tomar para resolver esta denúncia. Se decidires por uma ação punitiva contra a conta denunciada, vai ser enviado um e-mail de notificação, exceto quando selecionada a categoria <strong>Spam</strong>.
+      add_to_report: Juntar à denúncia
       are_you_sure: Tem a certeza?
       assign_to_self: Atribuída a mim
       assigned: Atribuída ao moderador
@@ -1126,7 +1126,7 @@ pt-PT:
       approve_appeal: Aprovar recurso
       associated_report: Denúncia associada
       created_at: Data
-      description_html: Estas são ações tomadas contra a tua conta e avisos que lhe foram enviados pela equipa de %{instance}.
+      description_html: Estas são ações tomadas contra a tua conta e advertências que te foram enviados pela equipa de %{instance}.
       recipient: Endereçado a
       reject_appeal: Rejeitar recurso
       status: 'Publicação #%{id}'
@@ -1633,7 +1633,7 @@ pt-PT:
     sensitive_content: Conteúdo sensível
   strikes:
     errors:
-      too_late: É tarde demais para apelar desta punição
+      too_late: É tarde demais para apelar desta advertência
   tags:
     does_not_match_previous_name: não coincide com o nome anterior
   terms:
@@ -1746,11 +1746,11 @@ pt-PT:
   user_mailer:
     appeal_approved:
       action: Ir para a sua conta
-      explanation: O recurso à punição contra a sua conta de %{strike_date}, o qual submeteu a %{appeal_date}, foi aprovado. A sua conta encontra-se novamente em situação regular.
-      subject: O seu recurso de %{date} foi aprovado
-      title: Recurso aprovado
+      explanation: O recurso à advertência contra a tua conta de %{strike_date}, que enviaste a %{appeal_date}, foi aceite. A tua conta encontra-se novamente em situação regular.
+      subject: O teu recurso de %{date} foi aceite
+      title: Recurso aceite
     appeal_rejected:
-      explanation: O recurso à punição contra a sua conta de %{strike_date}, o qual submeteu a %{appeal_date}, foi rejeitado.
+      explanation: O recurso à advertência contra a tua conta de %{strike_date}, que enviaste a %{appeal_date}, foi rejeitado.
       subject: O seu recurso de %{date} foi rejeitado
       title: Recurso rejeitado
     backup_ready:
@@ -1760,19 +1760,19 @@ pt-PT:
     suspicious_sign_in:
       change_password: alterar a sua palavra-passe
       details: 'Aqui estão os detalhes do inicio de sessão:'
-      explanation: Detetamos um inicio de sessão na sua conta a partir de um novo endereço IP.
-      further_actions_html: Se não foi você, recomendamos que %{action} imediatamente e ative a autenticação de dois fatores para manter a sua conta segura.
-      subject: A sua conta foi acessada a partir de um novo endereço IP
+      explanation: Detectámos um inicio de sessão na tua conta a partir de um novo endereço IP.
+      further_actions_html: Se não foste tu, recomendamos que %{action} imediatamente e ative a autenticação de dois fatores para manter a sua conta segura.
+      subject: A tua conta foi acedida a partir de um novo endereço IP
       title: Novo inicio de sessão
     warning:
-      appeal: Submeter um recurso
-      appeal_description: Se acredita que isso é um erro, pode submeter um recurso para a equipa de %{instance}.
+      appeal: Enviar um recurso
+      appeal_description: Se acreditas que é um erro, podes enviar um recurso para a equipa de %{instance}.
       categories:
         spam: Spam
-        violation: O conteúdo infringe as seguintes diretrizes da comunidade
+        violation: O conteúdo viola estas normas da comunidade
       explanation:
-        delete_statuses: Algumas das suas publicações foram consideradas como a infringir uma ou mais diretrizes da comunidade e foram subsequentemente removidas pelos moderadores de %{instance}.
-        disable: Não pode mais utilizar a sua conta, mas o seu perfil e outros dados permanecem intactos. Pode solicitar uma cópia dos seus dados, alterar as definições da conta ou apagá-la.
+        delete_statuses: Algumas das tuas publicações foram consideradas como violando uma ou mais normas da comunidade e foram removidas pelos moderadores de %{instance}.
+        disable: Não podes mais utilizar a sua conta, mas o teu perfil e outros dados permanecem intactos. Podes solicitar uma cópia dos teus dados, alterar as definições da conta ou apagá-la.
         mark_statuses_as_sensitive: Algumas das suas publicações foram marcadas como sensíveis pelos moderadores de %{instance}. Isto significa que as pessoas terão de clicar na media nas publicações, antes de ser exibida uma pré-visualização. No futuro, quando publicar, lembre-se que pode você mesmo marcar a media como sensível.
         sensitive: A partir de agora, todos os ficheiros de media que carregue serão marcados como sensíveis e escondidos atrás de um aviso de "clicar-para-continuar".
         silence: Pode ainda utilizar a sua conta mas apenas as pessoas que já o seguem poderão ver as suas mensagens neste servidor, e poderá ser excluído de várias funcionalidades de divulgação. No entanto, outros poderão ainda segui-lo manualmente.
