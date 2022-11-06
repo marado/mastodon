@@ -55,7 +55,7 @@ en:
   generic:
     use_this: Usar isto
   settings:
-    flavours: Temas
+    flavours: Temas do interface
   compose_form:
     spoiler: Esconder o texto por trás de um aviso de conteúdo
 
