@@ -86,7 +86,7 @@ pt-PT:
       approve: Aprovar
       approved_msg: Inscrição de %{username} aprovada
       are_you_sure: Tens a certeza?
-      avatar: Imagem de Perfil
+      avatar: Avatar
       by_domain: Domínio
       change_email:
         changed_msg: E-mail alterado!
