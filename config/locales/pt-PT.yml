@@ -1358,7 +1358,7 @@ pt-PT:
       subject: "%{name} mencionou-te"
       title: Nova menção
     poll:
-      subject: Uma votação realizada por %{name} terminou
+      subject: Uma sondagem realizada por %{name} terminou
     reblog:
       body: 'O teu post foi partilhado por %{name}:'
       subject: "%{name} partilhou o teu post"
