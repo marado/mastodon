@@ -207,6 +207,7 @@ en:
         reject_user: Reject User
         remove_avatar_user: Remove Avatar
         reopen_report: Reopen Report
+        resend_user: Resend Confirmation Mail
         reset_password_user: Reset Password
         resolve_report: Resolve Report
         sensitive_account: Force-Sensitive Account
@@ -265,6 +266,7 @@ en:
         reject_user_html: "%{name} rejected sign-up from %{target}"
         remove_avatar_user_html: "%{name} removed %{target}'s avatar"
         reopen_report_html: "%{name} reopened report %{target}"
+        resend_user_html: "%{name} resent confirmation e-mail for %{target}"
         reset_password_user_html: "%{name} reset password of user %{target}"
         resolve_report_html: "%{name} resolved report %{target}"
         sensitive_account_html: "%{name} marked %{target}'s media as sensitive"
@@ -281,6 +283,7 @@ en:
         update_ip_block_html: "%{name} changed rule for IP %{target}"
         update_status_html: "%{name} updated post by %{target}"
         update_user_role_html: "%{name} changed %{target} role"
+      deleted_account: deleted account
       empty: No logs found.
       filter_by_action: Filter by action
       filter_by_user: Filter by user
@@ -605,7 +608,7 @@ en:
         other: "%{count} users"
       categories:
         administration: Administration
-        devops: Devops
+        devops: DevOps
         invites: Invites
         moderation: Moderation
         special: Special
@@ -656,7 +659,7 @@ en:
         view_audit_log_description: Allows users to see a history of administrative actions on the server
         view_dashboard: View Dashboard
         view_dashboard_description: Allows users to access the dashboard and various metrics
-        view_devops: Devops
+        view_devops: DevOps
         view_devops_description: Allows users to access Sidekiq and pgHero dashboards
       title: Roles
     rules:
@@ -1371,7 +1374,7 @@ en:
     browser: Browser
     browsers:
       alipay: Alipay
-      blackberry: Blackberry
+      blackberry: BlackBerry
       chrome: Chrome
       edge: Microsoft Edge
       electron: Electron
@@ -1385,7 +1388,7 @@ en:
       phantom_js: PhantomJS
       qq: QQ Browser
       safari: Safari
-      uc_browser: UCBrowser
+      uc_browser: UC Browser
       weibo: Weibo
     current_session: Current session
     description: "%{browser} on %{platform}"
@@ -1394,8 +1397,8 @@ en:
     platforms:
       adobe_air: Adobe Air
       android: Android
-      blackberry: Blackberry
-      chrome_os: Chrome OS
+      blackberry: BlackBerry
+      chrome_os: ChromeOS
       firefox_os: Firefox OS
       ios: iOS
       linux: Linux

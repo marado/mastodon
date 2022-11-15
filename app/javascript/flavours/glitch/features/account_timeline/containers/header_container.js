@@ -61,6 +61,8 @@ const mapDispatchToProps = (dispatch, { intl }) => ({
           confirm: intl.formatMessage(messages.cancelFollowRequestConfirm),
           onConfirm: () => dispatch(unfollowAccount(account.get('id'))),
         }));
+      } else {
+        dispatch(unfollowAccount(account.get('id')));
       }
     } else {
       dispatch(followAccount(account.get('id')));
@@ -156,6 +158,13 @@ const mapDispatchToProps = (dispatch, { intl }) => ({
   onChangeLanguages (account) {
     dispatch(openModal('SUBSCRIBED_LANGUAGES', {
       accountId: account.get('id'),
+    }));
+  },
+
+  onOpenAvatar (account) {
+    dispatch(openModal('IMAGE', {
+      src: account.get('avatar'),
+      alt: account.get('acct'),
     }));
   },
 

@@ -207,6 +207,7 @@ it:
         reject_user: Rifiuta Utente
         remove_avatar_user: Elimina avatar
         reopen_report: Riapri report
+        resend_user: Invia di nuovo l'email di conferma
         reset_password_user: Reimposta password
         resolve_report: Risolvi report
         sensitive_account: Contrassegna il media nel tuo profilo come sensibile
@@ -265,6 +266,7 @@ it:
         reject_user_html: "%{name} ha rifiutato la registrazione da %{target}"
         remove_avatar_user_html: "%{name} ha rimosso l'immagine profilo di %{target}"
         reopen_report_html: "%{name} ha riaperto il rapporto %{target}"
+        resend_user_html: "%{name} inviata nuovamente l'email di conferma per %{target}"
         reset_password_user_html: "%{name} ha reimpostato la password dell'utente %{target}"
         resolve_report_html: "%{name} ha risolto il rapporto %{target}"
         sensitive_account_html: "%{name} ha segnato il media di %{target} come sensibile"
@@ -281,6 +283,7 @@ it:
         update_ip_block_html: "%{name} ha cambiato la regola per l'IP %{target}"
         update_status_html: "%{name} ha aggiornato lo status di %{target}"
         update_user_role_html: "%{name} ha modificato il ruolo %{target}"
+      deleted_account: account eliminato
       empty: Nessun log trovato.
       filter_by_action: Filtra per azione
       filter_by_user: Filtra per utente
@@ -605,7 +608,7 @@ it:
         other: "%{count} utenti"
       categories:
         administration: Amministrazione
-        devops: Devops
+        devops: DevOps
         invites: Inviti
         moderation: Moderazione
         special: Speciale
@@ -656,7 +659,7 @@ it:
         view_audit_log_description: Consente agli utenti di vedere una cronologia delle azioni amministrative sul server
         view_dashboard: Mostra dashboard
         view_dashboard_description: Consente agli utenti di accedere alla dashboard e alle varie metriche
-        view_devops: Devops
+        view_devops: DevOps
         view_devops_description: Consente agli utenti di accedere alle dashboard Sidekiq e pgHero
       title: Ruoli
     rules:
@@ -1251,6 +1254,8 @@ it:
     carry_blocks_over_text: Questo utente si è spostato da %{acct} che hai bloccato.
     carry_mutes_over_text: Questo utente si è spostato da %{acct} che hai silenziato.
     copy_account_note_text: 'Questo utente si è spostato da %{acct}, ecco le tue note precedenti su di loro:'
+  navigation:
+    toggle_menu: Cambia menu
   notification_mailer:
     admin:
       report:
@@ -1370,7 +1375,7 @@ it:
     browser: Browser
     browsers:
       alipay: Alipay
-      blackberry: Blackberry
+      blackberry: BlackBerry
       chrome: Chrome
       edge: Microsoft Edge
       electron: Electron
@@ -1384,7 +1389,7 @@ it:
       phantom_js: PhantomJS
       qq: QQ Browser
       safari: Safari
-      uc_browser: UCBrowser
+      uc_browser: UC Browser
       weibo: Weibo
     current_session: Sessione corrente
     description: "%{browser} su %{platform}"
@@ -1393,7 +1398,7 @@ it:
     platforms:
       adobe_air: Adobe Air
       android: Android
-      blackberry: Blackberry
+      blackberry: BlackBerry
       chrome_os: ChromeOS
       firefox_os: Firefox OS
       ios: iOS

@@ -1,10 +1,16 @@
 {
   "about.blocks": "Servidores moderados",
   "about.contact": "Contacto:",
+<<<<<<< HEAD
   "about.domain_blocks.comment": "Motivo",
   "about.domain_blocks.domain": "Domínio",
   "about.domain_blocks.preamble": "Mastodon geralmente permite que veja e interaja com o conteúdo de utilizadores de qualquer outra instância no fediverso. Estas são as excepções desta instância em específico.",
   "about.domain_blocks.severity": "Severidade",
+=======
+  "about.disclaimer": "Mastodon é um software livre, de código aberto e uma marca registada do Mastodon gGmbH.",
+  "about.domain_blocks.no_reason_available": "Motivo não disponível",
+  "about.domain_blocks.preamble": "Mastodon geralmente permite que veja e interaja com o conteúdo de utilizadores de qualquer outra instância no fediverso. Estas são as exceções desta instância em específico.",
+>>>>>>> upstream/main
   "about.domain_blocks.silenced.explanation": "Geralmente não verá perfis e conteúdo deste servidor, a menos que os procure explicitamente ou opte por os seguir.",
   "about.domain_blocks.silenced.title": "Limitados",
   "about.domain_blocks.suspended.explanation": "Nenhum dado dessas instâncias será processado, armazenado ou trocado, tornando qualquer interação ou comunicação com os utilizadores dessas instâncias impossível.",
@@ -38,19 +44,34 @@
   "account.following_counter": "{count, plural, other {A seguir {counter}}}",
   "account.follows.empty": "Esta conta ainda não segue ninguém.",
   "account.follows_you": "Segue-te",
+<<<<<<< HEAD
   "account.hide_reblogs": "Esconder re-publicações de @{name}",
   "account.joined": "Inscreveu-se em {date}",
   "account.joined_short": "Juntou-se em",
+=======
+  "account.go_to_profile": "Ir para o perfil",
+  "account.hide_reblogs": "Esconder partilhas de @{name}",
+  "account.joined_short": "Juntou-se a",
+>>>>>>> upstream/main
   "account.languages": "Alterar idiomas subscritos",
   "account.link_verified_on": "A posse deste link foi verificada em {date}",
   "account.locked_info": "Esta conta é privada. É preciso esperar pela autorização de quem a gere para a seguir.",
   "account.media": "Media",
   "account.mention": "Mencionar @{name}",
+<<<<<<< HEAD
   "account.moved_to": "{name} mudou a conta para:",
   "account.mute": "Silenciar @{name}",
   "account.mute_notifications": "Silenciar notificações de @{name}",
   "account.muted": "Silenciada",
   "account.posts": "Publicações",
+=======
+  "account.moved_to": "{name} indicou que a sua nova conta é agora:",
+  "account.mute": "Silenciar @{name}",
+  "account.mute_notifications": "Silenciar notificações de @{name}",
+  "account.muted": "Silenciada",
+  "account.open_original_page": "Abrir a página original",
+  "account.posts": "Toots",
+>>>>>>> upstream/main
   "account.posts_with_replies": "Publicações e respostas",
   "account.report": "Denunciar @{name}",
   "account.requested": "A espera de aprovação. Clica para cancelar o pedido para seguir",
@@ -92,6 +113,11 @@
   "bundle_modal_error.close": "Fechar",
   "bundle_modal_error.message": "Aconteceu algo de errado ao carregar este componente.",
   "bundle_modal_error.retry": "Tentar outra vez",
+  "closed_registrations.other_server_instructions": "Como o Mastodon é descentralizado, podes criar uma conta noutro servidor e continuar a interagir com este.",
+  "closed_registrations_modal.description": "Criar uma conta na Ciberlândia ainda não é possível, mas recordamos que não precisas de uma conta aqui para usar o Mastodon e interagir com as contas deste servidor.",
+  "closed_registrations_modal.find_another_server": "Encontrar outro servidor.",
+  "closed_registrations_modal.preamble": "O Mastodon é descentralizado, por isso onde quer que registes a tua conta, vais poder seguir e interagir com qualquer conta neste servidor. (Podes até alojar o teu próprio servidor!)",
+  "closed_registrations_modal.title": "Inscrição na Ciberlândia",
   "column.about": "Acerca",
   "column.blocks": "Bloqueios",
   "column.bookmarks": "Guardadas",
@@ -99,11 +125,6 @@
   "column.direct": "Mensagens",
   "column.directory": "Quem por cá anda",
   "column.domain_blocks": "Domínios bloqueados",
-  "closed_registrations.other_server_instructions": "Como o Mastodon é descentralizado, podes criar uma conta noutro servidor e continuar a interagir com este.",
-  "closed_registrations_modal.description": "Criar uma conta na Ciberlândia ainda não é possível, mas recordamos que não precisas de uma conta aqui para usar o Mastodon e interagir com as contas deste servidor.",
-  "closed_registrations_modal.find_another_server": "Encontrar outro servidor.",
-  "closed_registrations_modal.preamble": "O Mastodon é descentralizado, por isso onde quer que registes a tua conta, vais poder seguir e interagir com qualquer conta neste servidor. (Podes até alojar o teu próprio servidor!)",
-  "closed_registrations_modal.title": "Inscrição na Ciberlândia",
   "column.favourites": "Favoritos",
   "column.follow_requests": "Pedidos pendentes para te seguir",
   "column.home": "Início",
@@ -187,7 +208,10 @@
   "directory.recently_active": "Com actividade recente",
   "embed.instructions": "Faz embed desta publicação no teu site copiando o código abaixo.",
   "embed.preview": "Podes ver aqui como vai ficar:",
-  "dismissable_banner.community_timeline": "Estas são as publicações públicas mais recentes das contas alojadas na Ciberlândia.",
+  "dismissable_banner.community_timeline": "Estes são os toots públicos mais recentes das contas alojadas na Ciberlândia.",
+  "disabled_account_banner.account_settings": "Definições da conta",
+  "disabled_account_banner.text": "A tua conta {disabledAccount} está desactivada.",
+  "dismissable_banner.community_timeline": "Estas são as publicações públicas mais recentes de pessoas cujas contas são hospedadas por {domain}.",
   "dismissable_banner.dismiss": "Descartar",
   "dismissable_banner.explore_links": "Estes assuntos estão a ser comentados e discutidos neste e noutros servidores do fediverso.",
   "dismissable_banner.explore_statuses": "Estas publicações, deste e de outros servidores no fediverso, estão agora a ganhar atenção neste servidor.",
@@ -263,12 +287,19 @@
   "follow_request.authorize": "Autorizar",
   "follow_request.reject": "Rejeitar",
   "follow_requests.unlocked_explanation": "Apesar de a tua conta não ser privada, a administração da Ciberlândia é da opinião que poderás querer rever manualmente os pedidos para seguir dessas contas.",
+  "footer.about": "Sobre",
+  "footer.directory": "Diretório de perfis",
+  "footer.get_app": "Obtém a aplicação",
+  "footer.invite": "Convidar pessoas",
+  "footer.keyboard_shortcuts": "Atalhos do teclado",
+  "footer.privacy_policy": "Política de privacidade",
+  "footer.source_code": "Ver código-fonte",
   "generic.saved": "Gravado",
   "getting_started.developers": "API",
   "getting_started.directory": "Quem por cá anda",
   "getting_started.documentation": "Documentação",
   "getting_started.free_software_notice": "O Mastodon é um software gratuito, de código aberto. Pode ver o código-fonte, contribuir ou reportar problemas em {repository}.",
-  "getting_started.heading": "Primeiros passos",
+  "getting_started.heading": "Casa de partida",
   "getting_started.invite": "Convidar pessoas",
   "getting_started.open_source_notice": "A Ciberlândia é uma instância do <a href=\"https://github.com/glitch-soc/mastodon\" target=\"_blank\">Mastodon</a>, um software livre. É mantida e sustentada pela <a href=\"https://direitosdigitais.pt\" target=\"_blank\">D3</a>, a associação de defesa dos direitos digitais em Portugal.",
   "getting_started.privacy_policy": "Termos & Política de Privacidade",
@@ -296,8 +327,13 @@
   "interaction_modal.description.reply": "Com uma conta no Mastodon, podes responder a esta publicação.",
   "interaction_modal.on_another_server": "Num servidor diferente",
   "interaction_modal.on_this_server": "Neste servidor",
+<<<<<<< HEAD
   "interaction_modal.other_server_instructions": "Basta copiar e colar este URL na barra de pesquisa da tua aplicação ou no teu interface web.",
   "interaction_modal.preamble": "Como o Mastodon é descentralizado, podes utilizar a tua conta existente, alojada noutro servidor Mastodon ou plataforma compatível, se não tiveres uma conta neste servidor.",
+=======
+  "interaction_modal.other_server_instructions": "Copie e cole este URL no campo de pesquisa do seu aplicativo Mastodon favorito ou da interface web do seu servidor Mastodon.",
+  "interaction_modal.preamble": "Uma vez que o Mastodon é descentralizado, pode utilizar a sua conta existente, hospedada em outro servidor Mastodon ou plataforma compatível, se não tiver uma conta neste servidor.",
+>>>>>>> upstream/main
   "interaction_modal.title.favourite": "Adicionar a publicação de {name} aos favoritos",
   "interaction_modal.title.follow": "Seguir {name}",
   "interaction_modal.title.reblog": "Re-publicar o toot de {name}",
@@ -347,8 +383,13 @@
   "lightbox.expand": "Expandir caixa de visualização de imagem",
   "lightbox.next": "Próximo",
   "lightbox.previous": "Anterior",
+<<<<<<< HEAD
   "limited_account_hint.action": "Abrir perfil na mesma",
   "limited_account_hint.title": "Este perfil foi ocultado pelos moderadores do seu servidor.",
+=======
+  "limited_account_hint.action": "Exibir perfil mesmo assim",
+  "limited_account_hint.title": "Este perfil foi ocultado pelos moderadores de {domain}.",
+>>>>>>> upstream/main
   "lists.account.add": "Adicionar à lista",
   "lists.account.remove": "Retirar da lista",
   "lists.delete": "Apagar lista",
@@ -367,9 +408,11 @@
   "media_gallery.toggle_visible": "Alternar visibilidade",
   "missing_indicator.label": "Não encontrado",
   "missing_indicator.sublabel": "Este recurso não foi encontrado",
+  "moved_to_account_banner.text": "A sua conta {disabledAccount} está, no momento, desativada, porque você migrou para {movedToAccount}.",
   "mute_modal.duration": "Duração",
   "mute_modal.hide_notifications": "Esconder notificações desta conta?",
   "mute_modal.indefinite": "Indefinidamente",
+<<<<<<< HEAD
   "navigation_bar.about": "Acerca da Ciberlândia",
   "navigation_bar.apps": "Apps móveis",
   "navigation_bar.blocks": "Contas bloqueadas",
@@ -377,6 +420,14 @@
   "navigation_bar.community_timeline": "Timeline local",
   "navigation_bar.compose": "Nova publicação",
   "navigation_bar.direct": "Mensagens",
+=======
+  "navigation_bar.about": "Sobre",
+  "navigation_bar.blocks": "Utilizadores bloqueados",
+  "navigation_bar.bookmarks": "Itens salvos",
+  "navigation_bar.community_timeline": "Cronologia local",
+  "navigation_bar.compose": "Escrever novo toot",
+  "navigation_bar.direct": "Mensagens diretas",
+>>>>>>> upstream/main
   "navigation_bar.discover": "Descobrir",
   "navigation_bar.domain_blocks": "Domínios escondidos",
   "navigation_bar.edit_profile": "Editar perfil",
@@ -385,16 +436,24 @@
   "navigation_bar.filters": "Palavras silenciadas",
   "navigation_bar.follow_requests": "Seguidores pendentes",
   "navigation_bar.follows_and_followers": "Seguindo e seguidores",
+<<<<<<< HEAD
   "navigation_bar.info": "Acerca",
   "navigation_bar.keyboard_shortcuts": "Atalhos de teclado",
+=======
+>>>>>>> upstream/main
   "navigation_bar.lists": "Listas",
   "navigation_bar.logout": "Fechar sessão",
   "navigation_bar.mutes": "Contas silenciadas",
   "navigation_bar.personal": "Pessoal",
   "navigation_bar.pins": "Publicações afixadas",
   "navigation_bar.preferences": "Preferências",
+<<<<<<< HEAD
   "navigation_bar.public_timeline": "Timeline federada",
   "navigation_bar.search": "Pesquisa",
+=======
+  "navigation_bar.public_timeline": "Cronologia federada",
+  "navigation_bar.search": "Pesquisar",
+>>>>>>> upstream/main
   "navigation_bar.security": "Segurança",
   "notification.admin.report": "{name} fez uma denúncia sobre {target}",
   "not_signed_in_indicator.not_signed_in": "É preciso iniciar sessão para isso.",
@@ -524,7 +583,11 @@
   "report_notification.categories.violation": "Violação de regra",
   "report_notification.open": "Abrir denúncia",
   "search.placeholder": "Pesquisar",
+<<<<<<< HEAD
   "search.search_or_paste": "Pesquisar...",
+=======
+  "search.search_or_paste": "Pesquisar ou introduzir URL",
+>>>>>>> upstream/main
   "search_popout.search_format": "Formato avançado de pesquisa",
   "search_popout.search_or_paste": "Pesquisar...",
   "search_popout.tips.full_text": "Texto completo devolve publicações que escreveste, marcaste como favorita, partilhaste ou que te mencionou, tal como nomes de utilizador, alcunhas e hashtags.",
@@ -579,6 +642,7 @@
   "status.pin": "Afixar no teu perfil",
   "status.pinned": "Publicação afixada",
   "status.read_more": "Ler mais",
+<<<<<<< HEAD
   "status.reblog": "Re-publicar",
   "status.reblog_private": "Re-publicar com o público original",
   "status.reblogged_by": "{name} re-publicou",
@@ -586,6 +650,15 @@
   "status.redraft": "Apagar & re-escrever",
   "status.remove_bookmark": "Retirar dos itens guardados",
   "status.replied_to": "Respondido a {name}",
+=======
+  "status.reblog": "Partilhar",
+  "status.reblog_private": "Fazer boost com a audiência original",
+  "status.reblogged_by": "{name} fez boost",
+  "status.reblogs.empty": "Ainda ninguém fez boost a este toot. Quando alguém o fizer, ele irá aparecer aqui.",
+  "status.redraft": "Apagar & reescrever",
+  "status.remove_bookmark": "Remover dos itens salvos",
+  "status.replied_to": "Respondeu a {name}",
+>>>>>>> upstream/main
   "status.reply": "Responder",
   "status.replyAll": "Responder à conversa",
   "status.report": "Denunciar @{name}",
@@ -598,9 +671,14 @@
   "status.show_more_all": "Mostrar mais para todas",
   "status.show_original": "Mostrar original",
   "status.translate": "Traduzir",
+<<<<<<< HEAD
   "status.translated_from_with": "Traduzido do {lang} com {provider}",
   "status.translated_from": "Traduzido do {lang}",
   "status.uncached_media_warning": "Indisponível",
+=======
+  "status.translated_from_with": "Traduzido do {lang} usando {provider}",
+  "status.uncached_media_warning": "Não disponível",
+>>>>>>> upstream/main
   "status.unmute_conversation": "Deixar de silenciar esta conversa",
   "status.unpin": "Desafixar do perfil",
   "subscribed_languages.lead": "Depois da alteração, só as publicações nos idiomas seleccionados vão aparecer na tua página inicial e listas. Para receberes publicações de todos os idiomas, não selecciones nenhuma.",
@@ -649,6 +727,7 @@
   "upload_modal.preparing_ocr": "A preparar OCR…",
   "upload_modal.preview_label": "Pré-visualizar ({ratio})",
   "upload_progress.label": "A enviar...",
+  "upload_progress.processing": "A processar…",
   "video.close": "Fechar vídeo",
   "video.download": "Descarregar ficheiro",
   "video.exit_fullscreen": "Sair do ecrã completo",

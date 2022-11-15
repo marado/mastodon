@@ -72,7 +72,7 @@ pt-PT:
         domain: Este pode ser o nome de domínio que aparece no endereço de e-mail ou o registo MX por ele utilizado. Os dados vão ser verificados aquando da inscrição.
         with_dns_records: Vai ser feita uma tentativa de resolver os registos DNS do domínio em questão, e os resultados também vão ser colocados na lista negra
       featured_tag:
-        name: 'Poderás querer usar um destes:'
+        name: 'Aqui estão algumas das hashtags que utilizou recentemente:'
       filters:
         action: Escolhe qual a acção a executar quando uma publicação corresponde ao filtro
         actions:
