@@ -2,73 +2,36 @@
 */
 
 @font-face {
-  font-family: "Liberation Sans";
-  src: local("Liberation Sans Italic"),
-    url("fonts/liberation/LiberationSans-Italic-webfont.woff") format("woff");
-  font-weight: normal;
-  font-display: swap;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "Liberation Sans";
-  src: local("Liberation Sans Bold"),
-    url("fonts/liberation/LiberationSans-Bold-webfont.woff") format("woff");
-  font-weight: bold;
-  font-display: swap;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Liberation Sans";
-  src: local("Liberation Sans Bold Italic"),
-    url("fonts/liberation/LiberationSans-BoldItalic-webfont.woff")
-      format("woff");
-  font-weight: bold;
-  font-display: swap;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "Liberation Sans";
-  src: local("Liberation Sans Regular"),
-    url("fonts/liberation/LiberationSans-Regular-webfont.woff") format("woff");
+  font-family: 'Nacelle';
+  src: local('Nacelle Regular'),
+    url('fonts/nacelle/Nacelle-Regular.woff2') format('woff2');
   font-weight: normal;
   font-display: swap;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Nacelle";
-  src: local("Nacelle Regular"),
-    url("fonts/nacelle/Nacelle-Regular.woff2") format("woff2");
-  font-weight: normal;
-  font-display: swap;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Nacelle";
-  src: local("Nacelle Bold"),
-    url("fonts/nacelle/Nacelle-Bold.woff2") format("woff2");
+  font-family: 'Nacelle';
+  src: local('Nacelle Bold'),
+    url('fonts/nacelle/Nacelle-Bold.woff2') format('woff2');
   font-weight: 700;
   font-display: swap;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Nacelle";
-  src: local("Nacelle Light"),
-    url("fonts/nacelle/Nacelle-Light.woff2") format("woff2");
+  font-family: 'Nacelle';
+  src: local('Nacelle Light'),
+    url('fonts/nacelle/Nacelle-Light.woff2') format('woff2');
   font-weight: 300;
   font-display: swap;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Abril Fatface";
-  src: local("Abril Fatface Regular"),
-    url("fonts/AbrilFatface-Regular.woff2") format("woff2");
+  font-family: 'Abril Fatface';
+  src: local('Abril Fatface Regular'),
+    url('fonts/AbrilFatface-Regular.woff2') format('woff2');
   font-weight: 400;
   font-display: swap;
   font-style: normal;
@@ -79,8 +42,8 @@
   --cibergreen: #cdffcc;
   --ciberdark: #06063a;
   --text-color: #2f2f2f;
-  --title-font: "Abril Fatface", "Nacelle", sans-serif;
-  --text-font: "Nacelle", "Liberation Sans", sans-serif;
+  --title-font: 'Abril Fatface', 'Nacelle', sans-serif;
+  --text-font: 'Nacelle', sans-serif;
   --ciber-radius: 65px;
 }
 
@@ -382,7 +345,7 @@ ol > li::marker {
   margin: 0 auto;
 }
 
-input[type="email"] {
+input[type='email'] {
   font-size: 1rem;
   border: 2px solid var(--ciberblue);
   padding: 0.5rem 1rem;
@@ -413,4 +376,52 @@ input[type="email"] {
   -webkit-appearance: none;
   align-items: center;
   border: 2px solid var(--ciberblue);
+}
+
+/* Mobile
+*/
+
+@media only screen and (max-width: 769px) {
+  main,
+  .top-navbar,
+  .regras-etiqueta {
+    display: block;
+  }
+
+  .block,
+  .regras-etiqueta .inner {
+    margin-top: 0.5rem;
+  }
+
+  .inner {
+    padding: 2rem;
+  }
+
+  .top-navbar header {
+    margin-bottom: 0.5rem;
+    padding: 1.5rem;
+  }
+
+  .top-navbar .intro-block {
+    padding: 2rem;
+  }
+
+  .signup p.disabled {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 1344px) {
+  .top-navbar,
+  main {
+    width: 90%;
+    margin: 2rem auto;
+  }
+  .top-navbar {
+    margin: 2rem auto 0.5rem;
+  }
+  main {
+    margin: 0 auto 2rem;
+  }
 }
