@@ -238,6 +238,7 @@ pt-PT:
       featured_tag:
         name: Hashtag
       filters:
+        action: Acção do filtro
         actions:
           hide: Ocultar por completo
           warn: Ocultar com um aviso
