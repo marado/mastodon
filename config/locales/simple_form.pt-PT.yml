@@ -7,7 +7,7 @@ pt-PT:
       account_migration:
         acct: Indica o utilizador@domínio da conta para onde pretendes migrar
       account_warning_preset:
-        text: Podes usar a sintaxe das postas, como URLs, hashtags e referências
+        text: Podes usar a sintaxe dos toots, como URLs, hashtags e referências
         title: Opcional. Não visível para o destinatário
       admin_account_action:
         include_statuses: O utilizador vai ver que publicações causaram a ação de moderação ou aviso
@@ -72,7 +72,7 @@ pt-PT:
         domain: Este pode ser o nome de domínio que aparece no endereço de e-mail ou o registo MX por ele utilizado. Os dados vão ser verificados aquando da inscrição.
         with_dns_records: Vai ser feita uma tentativa de resolver os registos DNS do domínio em questão, e os resultados também vão ser colocados na lista negra
       featured_tag:
-        name: 'Aqui estão algumas das hashtags que utilizou recentemente:'
+        name: 'Eis algumas das etiquetas que utilizou recentemente:'
       filters:
         action: Escolhe qual a acção a executar quando uma publicação corresponde ao filtro
         actions:
@@ -98,7 +98,7 @@ pt-PT:
         thumbnail: Uma imagem de aproximadamente 2:1, mostrada ao lado da informação deste servidor.
         timeline_preview: Os visitantes sem sessão iniciada poderão consultar as publicações públicas mais recentes disponíveis no servidor.
         trendable_by_default: Ignorar a revisão manual do conteúdo das tendências. Itens individuais ainda poderão ser removidos das tendências após a sua exibição.
-        trends: As tendências mostram quais as publicações, hashtags e notícias estão a ganhar destaque no seu servidor.
+        trends: As tendências mostram quais as publicações, etiquetas e notícias que estão a ganhar destaque no seu servidor.
       form_challenge:
         current_password: Estás a entrar numa área restrita
       imports:
@@ -236,7 +236,7 @@ pt-PT:
       email_domain_block:
         with_dns_records: Incluir registos MX e IPs do domínio
       featured_tag:
-        name: Hashtag
+        name: Etiqueta
       filters:
         action: Acção do filtro
         actions:

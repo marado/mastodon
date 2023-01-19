@@ -149,9 +149,19 @@ pt-PT:
     scopes:
       admin:read: ler todos os dados no servidor
       admin:read:accounts: ler informações sensíveis de todas as contas
+      admin:read:canonical_email_blocks: ler informações sensíveis de todos os bloqueios de endereços canónicos de e-mail
+      admin:read:domain_allows: ler informações sensíveis de todos os domínios permitidos
+      admin:read:domain_blocks: ler informações sensíveis de todos os bloqueios de domínio
+      admin:read:email_domain_blocks: ler informações sensíveis de todos os bloqueios de domínio de e-mail
+      admin:read:ip_blocks: ler informações sensíveis de todos os bloqueios de IPs
       admin:read:reports: ler informações sensíveis de todas as denúncias e contas denunciadas
       admin:write: modificar todos os dados no servidor
       admin:write:accounts: executar acções de moderação em contas
+      admin:write:canonical_email_blocks: executar acções de moderação no bloqueio de endereços canónicos de e-mail
+      admin:write:domain_allows: executar acções de moderação na permissão de domínios
+      admin:write:domain_blocks: executar acções de moderação no bloqueio de domínios
+      admin:write:email_domain_blocks: executar acções de moderação no bloqueio de domínios de e-mail
+      admin:write:ip_blocks: executar acções de moderação no bloqueio de IPs
       admin:write:reports: executar acções de moderação em denúncias
       crypto: usar encriptação ponta-a-ponta
       follow: seguir, bloquear, desbloquear e deixar de seguir contas

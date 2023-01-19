@@ -65,7 +65,7 @@ pt-PT:
     following: A seguir
     instance_actor_flash: Esta conta é um actor virtual usado para representar a própria instância e não um utilizador individual. É usada para motivos de federação e não deve ser suspenso.
     last_active: última vez activo
-    link_verified_on: A posse deste link foi verificada em %{date}
+    link_verified_on: A posse desta hiperligação foi verificada em %{date}
     nothing_here: Não há nada aqui!
     pin_errors:
       following: Tens de estar a seguir a pessoa que pretendes apoiar
@@ -115,12 +115,12 @@ pt-PT:
       display_name: Nome a mostrar
       domain: Domínio
       edit: Editar
-      email: E-mail
+      email: Correio electrónico
       email_status: Estado do e-mail
       enable: Descongelar
       enable_sign_in_token_auth: Activar token de autenticação por e-mail
       enabled: Activado
-      enabled_msg: Descongelou com sucesso a conta %{username}
+      enabled_msg: Descongelaste com sucesso a conta %{username}
       followers: Seguidores
       follows: A seguir
       header: Cabeçalho
@@ -136,7 +136,7 @@ pt-PT:
         title: Local
       login_status: Estado de início de sessão
       media_attachments: Anexos de media
-      memorialize: Converter em memorial
+      memorialize: Converter num memorial
       memorialized: Em memória
       memorialized_msg: Conta %{username} transformada com sucesso em memorial
       moderation:
@@ -164,9 +164,11 @@ pt-PT:
       public: Público
       push_subscription_expires: A Inscrição PuSH expira
       redownload: Atualizar perfil
-      redownloaded_msg: Atualizado o perfil de %{username} da origem
+      redownloaded_msg: Perfil de %{username} actualizado a partir da origem
       reject: Rejeitar
       rejected_msg: Inscrição de %{username} rejeitada
+      remote_suspension_irreversible: Os dados desta conta foram eliminados irreversivelmente.
+      remote_suspension_reversible_hint_html: A conta foi suspensa no servidor de origem e os seus dados serão totalmente eliminados em %{date}. Até lá, o servidor de origem ainda pode recuperar esta conta. Se quiseres eliminar todos os dados desta conta imediatamente, podes fazê-lo abaixo.
       remove_avatar: Remover a imagem de perfil
       remove_header: Remover o cabeçalho
       removed_avatar_msg: Imagem de perfil de %{username} removida
@@ -176,17 +178,17 @@ pt-PT:
         send: Reenviar um e-mail de confirmação
         success: E-mail de confirmação enviado!
       reset: Fazer reset
-      reset_password: Fazer reset à  palavra-passe
+      reset_password: Fazer reset à palavra-passe
       resubscribe: Reinscrever
       role: Cargo
       search: Pesquisar
-      search_same_email_domain: Outros utilizadores com o mesmo domínio de e-mail
+      search_same_email_domain: Outros utilizadores com o mesmo domínio de correio electrónico
       search_same_ip: Outros utilizadores com o mesmo IP
       security_measures:
         only_password: Apenas palavra-passe
         password_and_2fa: Palavra-passe e 2FA
-      sensitive: Marcar como sensível
-      sensitized: marcada como sensível
+      sensitive: Marcar como problemático
+      sensitized: Marcada como problemática
       shared_inbox_url: URL da caixa de entrada compartilhada
       show:
         created_reports: Denúncias realizadas
@@ -212,19 +214,19 @@ pt-PT:
       unsuspended_msg: A conta %{username} deixou de estar suspensa
       username: Utilizador
       view_domain: Ver resumo do domínio
-      warn: Aviso
-      web: Web
-      whitelisted: Está na lista branca
+      warn: Advertir
+      web: Teia
+      whitelisted: Permitido para a federação
     action_logs:
       action_types:
-        approve_appeal: Aprovar Recurso
-        approve_user: Aprovar Utilizador
+        approve_appeal: Aprovar recurso
+        approve_user: Aprovar utilizador
         assigned_to_self_report: Atribuir Denúncia
         change_email_user: Alterar E-mail do Utilizador
         change_role_user: Alterar Cargo do Utilizador
         confirm_user: Confirmar Utilizador
         create_account_warning: Criar Aviso
-        create_announcement: Criar Anúncio
+        create_announcement: Criar comunicado
         create_canonical_email_block: Criar Bloqueio de E-mail
         create_custom_emoji: Criar Emoji Personalizado
         create_domain_allow: Criar Permissão de Domínio
@@ -234,7 +236,7 @@ pt-PT:
         create_unavailable_domain: Criar Domínio Indisponível
         create_user_role: Criar Cargo
         demote_user: Despromover Utilizador
-        destroy_announcement: Eliminar Anúncio
+        destroy_announcement: Apagar comunicado
         destroy_canonical_email_block: Eliminar Bloqueio de E-mail
         destroy_custom_emoji: Eliminar Emoji Personalizado
         destroy_domain_allow: Eliminar Permissão de Domínio
@@ -340,14 +342,14 @@ pt-PT:
       filter_by_user: Filtrar por utilizador
       title: Registo de auditoria
     announcements:
-      destroyed_msg: Anúncio eliminado com sucesso!
+      destroyed_msg: Comunicado correctamente eliminado!
       edit:
-        title: Editar anúncio
-      empty: Nenhum anúncio encontrado.
-      live: Em exibição
+        title: Editar comunicado
+      empty: Nenhum comunicado encontrado.
+      live: Em directo
       new:
-        create: Criar anúncio
-        title: Novo anúncio
+        create: Criar comunicado
+        title: Novo comunicado
       publish: Publicar
       published_msg: Anúncio publicado!
       scheduled_for: Agendado para %{time}
@@ -375,7 +377,7 @@ pt-PT:
       enabled_msg: Emoji activado
       image_hint: PNG ou GIF até %{size}
       list: Lista
-      listed: Listado
+      listed: Inventariado
       new:
         title: Adicionar novo emoji local
       no_emoji_selected: Nenhum emoji foi seleccionado, por isso não há nada para fazer
@@ -403,8 +405,8 @@ pt-PT:
         one: "<strong>%{count}</strong> denúncia pendente"
         other: "<strong>%{count}</strong> denúncias pendentes"
       pending_tags_html:
-        one: "<strong>%{count}</strong> hashtag pendente"
-        other: "<strong>%{count}</strong> hashtags pendentes"
+        one: "<strong>%{count}</strong> etiqueta pendente"
+        other: "<strong>%{count}</strong> etiquetas pendentes"
       pending_users_html:
         one: "<strong>%{count}</strong> utilizador pendente"
         other: "<strong>%{count}</strong> utilizadores pendentes"
@@ -413,9 +415,9 @@ pt-PT:
       sources: Origem das inscrições
       space: Utilização do espaço
       title: Painel de controlo
-      top_languages: Principais idiomas activos
+      top_languages: Principais línguas activas
       top_servers: Servidores mais activos
-      website: Website
+      website: Página na teia
     disputes:
       appeals:
         empty: Nenhum recurso encontrado.
@@ -426,7 +428,7 @@ pt-PT:
       destroyed_msg: Domínio retirado da lista branca
       export: Exportar
       import: Importar
-      undo: Remover da lista branca
+      undo: Revogar federação com o domínio
     domain_blocks:
       add_new: Adicionar novo
       created_msg: Bloqueio a ser processado
@@ -446,10 +448,10 @@ pt-PT:
           silence: Limitar
           suspend: Suspender
         title: Novo bloqueio de domínio
-      no_domain_block_selected: Nenhum bloqueio de domínio foi alterado pois nenhum foi selecionado
+      no_domain_block_selected: Nenhum bloqueio de domínio foi alterado, pois nenhum foi seleccionado
       not_permitted: Não está autorizado a executar esta ação
       obfuscate: Ofuscar nome de domínio
-      obfuscate_hint: Ofuscar parcialmente o nome de domínio na lista, se estiverem habilitadas as limitações na publicação da lista de domínios
+      obfuscate_hint: Ofuscar parcialmente o nome de domínio na lista, caso estejam definidas limitações na publicação da lista de domínios
       private_comment: Comentário privado
       private_comment_hint: Comentário sobre essa limitação de domínio para uso interno pelos moderadores.
       public_comment: Comentário público
@@ -504,7 +506,7 @@ pt-PT:
     instances:
       availability:
         description_html:
-          one: Se a transmissão ao domínio falhar <strong>%{count} dia</strong> sem sucesso, nenhuma tentativa de transmissão será feita a menos que uma transmissão <em>proveniente</em> do domínio seja recebida.
+          one: Se a transmissão ao domínio falhar ao final de <strong>%{count} dia(s)</strong>, não será feita mais nenhuma tentativa de transmissão a menos que seja recebida uma transmissão <em>proveniente</em> desse domínio.
           other: Se a transmissão ao domínio falhar em <strong>%{count} dias diferentes</strong> sem sucesso, nenhuma tentativa de transmissão será feita a menos que uma transmissão <em>proveniente</em> do domínio seja recebida.
         failure_threshold_reached: Limite de falhas atingido em %{date}.
         failures_recorded:
@@ -517,7 +519,7 @@ pt-PT:
       back_to_limited: Limitadas
       back_to_warning: Aviso
       by_domain: Domínio
-      confirm_purge: Tem a certeza que deseja eliminar permanentemente os dados deste domínio?
+      confirm_purge: Tem a certeza de que deseja eliminar permanentemente os dados deste domínio?
       content_policies:
         comment: Nota interna
         description_html: Pode definir políticas de conteúdo que serão aplicadas a todas as contas deste domínio e a qualquer um dos seus subdomínios.
@@ -534,7 +536,7 @@ pt-PT:
         instance_accounts_measure: contas armazenadas
         instance_followers_measure: nossos seguidores lá
         instance_follows_measure: os seus seguidores aqui
-        instance_languages_dimension: Idiomas mais populares
+        instance_languages_dimension: Liderança de línguas
         instance_media_attachments_measure: anexos de media armazenados
         instance_reports_measure: denúncias sobre eles
         instance_statuses_measure: publicações armazenadas
@@ -560,11 +562,11 @@ pt-PT:
       private_comment: Comentários privados
       public_comment: Comentários públicos
       purge: Purgar
-      purge_description_html: Se acredita que este domínio está definitivamente offline, pode excluir todos os registos de contas e dados associados a ele do seu armazenamento. Isso pode demorar algum tempo.
-      title: Instâncias conhecidas
-      total_blocked_by_us: Bloqueadas por nós
-      total_followed_by_them: Seguidas por eles
-      total_followed_by_us: Seguidas por nós
+      purge_description_html: Se crê que este domínio está definitivamente fora de linha, pode apagar todos os seus registos de contas e dados associados do seu armazenamento. Isso pode demorar algum tempo.
+      title: Federação
+      total_blocked_by_us: Bloqueado(s) por nós
+      total_followed_by_them: Seguido(s) por eles
+      total_followed_by_us: Seguido(s) por nós
       total_reported: Denúncias sobre eles
       total_storage: Anexos de media
       totals_time_period_hint_html: Os totais exibidos abaixo incluem dados referentes ao tempo total.
@@ -578,7 +580,7 @@ pt-PT:
       title: Convites
     ip_blocks:
       add_new: Criar regra
-      created_msg: Nova regra de IP adicionada com sucesso
+      created_msg: Nova regra de IP correctamente adicionada
       delete: Eliminar
       expires_in:
         '1209600': 2 semanas
@@ -606,13 +608,12 @@ pt-PT:
       pending: À espera da aprovação do repetidor
       save_and_enable: Guardar e activar
       setup: Configurar uma ligação ao repetidor
-      signatures_not_enabled: Relays não funcionarão corretamente enquanto o modo seguro ou o modo lista branca estiverem activados
+      signatures_not_enabled: Os repetidores não vão funcionar como deve ser enquanto o modo seguro ou o modo lista branca estiverem activados
       status: Estado
       title: Retransmissores
     report_notes:
       created_msg: Nota de denúncia criada com sucesso!
       destroyed_msg: Nota de denúncia eliminada com sucesso!
-      today_at: Hoje às %{time}
     reports:
       account:
         notes:
@@ -643,8 +644,8 @@ pt-PT:
       forwarded: Encaminhado
       forwarded_to: Encaminhado para %{domain}
       mark_as_resolved: Marcar como resolvido
-      mark_as_sensitive: Marcar como sensível
-      mark_as_unresolved: Marcar como não resolvido
+      mark_as_sensitive: Marcar como problemático
+      mark_as_unresolved: Marcar como por resolver
       no_one_assigned: Ninguém
       notes:
         create: Adicionar nota
@@ -654,7 +655,7 @@ pt-PT:
         placeholder: Descreve as acções que foram tomadas ou quaisquer outras actualizações relacionadas...
         title: Notas
       notes_description_html: Visualiza e deixa anotações para outros moderadores e para ti no futuro
-      quick_actions_description_html: 'Tome uma acção rápida ou role para baixo para ver o conteúdo denunciado:'
+      quick_actions_description_html: 'Toma uma acção rápida ou vê o conteúdo denunciado abaixo:'
       remote_user_placeholder: o utilizador remoto de %{instance}
       reopen: Reabrir denúncia
       report: 'Denúncia #%{id}'
@@ -695,12 +696,12 @@ pt-PT:
         administrator: Administrador
         administrator_description: Utilizadores com esta permissão irão contornar todas as permissões
         delete_user_data: Eliminar Dados de Utilizador
-        delete_user_data_description: Permite que os utilizadores eliminem os dados de outros utilizadores sem atraso
+        delete_user_data_description: Permite que os utilizadores eliminem os dados doutros utilizadores sem tempo de espera
         invite_users: Convidar Utilizadores
         invite_users_description: Permite aos utilizadores convidar pessoas novas para o servidor
-        manage_announcements: Gerir Anúncios
-        manage_announcements_description: Permite aos utilizadores gerir anúncios no servidor
-        manage_appeals: Gerir Recursos
+        manage_announcements: Gerir comunicados
+        manage_announcements_description: Permite aos utilizadores gerirem os comunicados no servidor
+        manage_appeals: Gerir apelos
         manage_appeals_description: Permite aos utilizadores rever recursos de moderação
         manage_blocks: Gerir Bloqueios
         manage_blocks_description: Permite aos utilizadores bloquear provedores de e-mail e endereços IP
@@ -717,7 +718,7 @@ pt-PT:
         manage_rules: Gerir Regras
         manage_rules_description: Permite aos utilizadores alterar as regras do servidor
         manage_settings: Gerir Configurações
-        manage_settings_description: Permite aos utilizadores alterar as configurações do site
+        manage_settings_description: Permite aos utilizadores alterar as configurações do sítio na teia
         manage_taxonomies: Gerir Taxonomias
         manage_taxonomies_description: Permite aos utilizadores rever o conteúdo em tendência e actualizar as configurações de hashtag
         manage_user_access: Gerir Acesso de Utilizador
@@ -729,14 +730,14 @@ pt-PT:
         view_audit_log: Ver Registo de Auditoria
         view_audit_log_description: Permite aos utilizadores ver um histórico de acções administrativas no servidor
         view_dashboard: Ver Painel de Controlo
-        view_dashboard_description: Permite aos utilizadores aceder ao painel de controlo e várias métricas
+        view_dashboard_description: Permite aos utilizadores acederem ao painel de controlo e a várias estatísticas
         view_devops: DevOps
         view_devops_description: Permite aos utilizadores aceder aos painéis de controlo do Sidekiq e pgHero
       title: Cargos
     rules:
       add_new: Adicionar regra
       delete: Eliminar
-      description_html: Embora a maioria afirme ter lido e concordado com os termos de serviço, geralmente as pessoas só leem depois de surgir um problema. <strong>Dê uma olhada nas regras do seu servidor fornecendo-as em uma lista de marcadores planos.</strong> Tente manter as regras individuais curtas e simples, mas tente também não dividi-las em muitos itens separados.
+      description_html: Embora a maioria afirme ter lido e concordado com os termos de serviço, geralmente as pessoas só os leem depois de lhes surgir um problema. <strong>Torne fácil a leitura rápida das regras do seu servidor, apresentando-as numa lista de tópicos.</strong> Tente que cada regra seja sucinta e simples, mas tente também não dividi-las num número excessivo de tópicos separados.
       edit: Editar regra
       empty: Nenhuma regra de instância foi ainda definida.
       title: Regras da instância
@@ -755,13 +756,16 @@ pt-PT:
       content_retention:
         preamble: Controle como o conteúdo gerado pelos utilizadores é armazenado no Mastodon.
         title: Retenção de conteúdo
+      default_noindex:
+        desc_html: Afeta todos os utilizadores que não alteraram esta configuração
+        title: Desativar, por omissão, a indexação de utilizadores por parte dos motores de pesquisa
       discovery:
         follow_recommendations: Recomendações para seguir
         preamble: Revelar conteúdos interessantes é fundamental para a entrada de novos utilizadores que podem não conhecer ninguém no Mastodon. Controle como os vários recursos de descoberta funcionam no seu servidor.
         profile_directory: Quem por cá anda
         public_timelines: Timelines públicas
         title: Descobrir
-        trends: Tendências
+        trends: Em alta
       domain_blocks:
         all: A toda a gente
         disabled: A ninguém
@@ -816,29 +820,29 @@ pt-PT:
         remove_from_report: Remover da denúncia
         report: Denúncia
       deleted: Eliminado
-      favourites: Favoritos
+      favourites: Marcadores
       history: Histórico de versões
       in_reply_to: A responder a
-      language: Idioma
+      language: Língua
       media:
         title: Media
       metadata: Metadados
       no_status_selected: Nenhum estado foi alterado porque nenhum foi seleccionado
       open: Abrir publicação
       original_status: Publicação original
-      reblogs: Reblogs
+      reblogs: Re-publicacões
       status_changed: Publicação alterada
       title: Estado das contas
-      trending: Em destaque
+      trending: Em alta
       visibility: Visibilidade
       with_media: Com media
     strikes:
       actions:
         delete_statuses: "%{name} eliminou a publicação de %{target}"
         disable: "%{name} congelou a conta de %{target}"
-        mark_statuses_as_sensitive: "%{name} marcou as publicações de %{target} como sensíveis"
+        mark_statuses_as_sensitive: "%{name} marcou as publicações de %{target} como problemáticas"
         none: "%{name} enviou uma advertência a %{target}"
-        sensitive: "%{name} marcou a conta de %{target} como sensível"
+        sensitive: "%{name} marcou a conta de %{target} como problemática"
         silence: "%{name} limitou a conta de %{target}"
         suspend: "%{name} suspendeu a conta de %{target}"
       appeal_approved: Recorrido
@@ -858,32 +862,32 @@ pt-PT:
         message_html: Nenhum processo Sidekiq em execução para a(s) fila(s) %{value}. Reveja a configuração do seu Sidekiq
     tags:
       review: Estado da revisão
-      updated_msg: Definições de hashtags actualizadas com sucesso
+      updated_msg: 'Definições de #etiquetas correctamente actualizadas'
     title: Administração
     trends:
       allow: Permitir
       approved: Aprovado
       disallow: Não permitir
       links:
-        allow: Permitir link
+        allow: Permitir ligação
         allow_provider: Permitir editor
-        description_html: Estes são links que actualmente estão a ser frequentemente partilhados por contas visiveis pelo seu servidor. Eles podem ajudar os seus utilizador a descobrir o que está a acontecer no mundo. Nenhum link é exibido publicamente até que aprove o editor. Também pode permitir ou rejeitar links individualmente.
+        description_html: Estes são links que estão agora a ser frequentemente partilhados por contas visiveis pelo teu servidor. Servem para ajudar as pessoas a descobrir o que está a acontecer no mundo. Nenhum link é mostrado até ser aprovado. Também podes permitir ou rejeitar links individualmente.
         disallow: Não permitir link
-        disallow_provider: Não permitir editor
+        disallow_provider: Não permitir fonte
         no_link_selected: Nenhum link foi alterado, pois nenhum foi seleccionado
         publishers:
           no_publisher_selected: Nenhum editor foi alterado, pois nenhum foi seleccionado
         shared_by_over_week:
           one: Partilhado por uma pessoa na última semana
           other: Partilhado por %{count} pessoas na última semana
-        title: Links em destaque
+        title: Ligações em alta
         usage_comparison: Partilhado %{today} vezes hoje, em comparação com %{yesterday} ontem
       only_allowed: Apenas permitidos
       pending_review: Pendente de revisão
       preview_card_providers:
-        allowed: Links deste editor poderão ser incluídos nos destaques
-        description_html: Estes são domínios a partir dos quais links são frequentemente partilhados no seu servidor. Estes links não serão colocados em destaque a menos que o seu domínio de origem seja aprovado. A sua aprovação (ou rejeição) estende-se a subdomínios.
-        rejected: Links deste editor não serão incluídos nos destaques
+        allowed: Ligações deste editor poderão vir a ficar em alta
+        description_html: Estes são os domínios a partir dos quais ligações são frequentemente partilhadas no seu servidor. As suas ligações não serão colocadas em alta a menos que o seu domínio de origem seja aprovado. A sua aprovação (ou rejeição) estende-se a subdomínios.
+        rejected: Ligações deste editor não serão postas em alta
         title: Editores
       rejected: Rejeitado
       statuses:
@@ -892,37 +896,37 @@ pt-PT:
         description_html: Estas são publicações que o seu servidor conhece e que actualmente estão a ser frequentemente partilhadas e adicionadas aos favoritos. Isto pode ajudar os seus utilizadores, novos e retornados, a encontrar mais pessoas para seguir. Nenhuma publicação será exibida publicamente até que aprove o autor, e o autor permita que a sua conta seja sugerida a outros. Você também pode permitir ou rejeitar publicações individualmente.
         disallow: Não permitir publicação
         disallow_account: Não permitir autor
-        no_status_selected: Nenhuma publicação em tendência foi alterada, pois nenhuma foi seleccionada
+        no_status_selected: Nenhuma publicação em tendência foi alterada, porque nenhuma foi seleccionada
         not_discoverable: O autor optou por não permitir que a sua conta seja sugerida a outros
         shared_by:
-          one: Partilhado ou adicionado aos favoritos uma vez
-          other: Partilhado e adicionado aos favoritos %{friendly_count} vezes
-        title: Publicações em destaque
+          one: Partilhado ou adicionado aos marcadores uma vez
+          other: Partilhado e adicionado aos marcadores %{friendly_count} vezes
+        title: Publicações em alta
       tags:
         current_score: Pontuação actual %{score}
         dashboard:
           tag_accounts_measure: utilizadores únicos
-          tag_languages_dimension: Idiomas mais populares
-          tag_servers_dimension: Servidores mais populares
+          tag_languages_dimension: Liderança de línguas
+          tag_servers_dimension: Topo de servidores
           tag_servers_measure: servidores diferentes
           tag_uses_measure: utilizações totais
-        description_html: Estas são hashtags que aparecem actualmente com frequência em publicações visíveis pelo seu servidor. Isto pode ajudar os seus utilizadores a descobrir o que está ser mais falado no momento. Nenhuma hashtag é exibida publicamente até que a aprove.
+        description_html: 'Estas são hashtags que aparecem actualmente com frequência em toots visíveis pelo teu servidor. Isto pode ajudar as pessoas a descobrir o que está ser mais falado no momento. Nenhuma hashtag é mostrada publicamente até que a aproves.'
         listable: Pode ser sugerida
         no_tag_selected: Nenhuma etiqueta foi alterada, pois nenhuma foi seleccionada
         not_listable: Não será sugerida
         not_trendable: Não aparecerá nas tendências
         not_usable: Não pode ser utilizada
         peaked_on_and_decaying: Máximo em %{date}, agora a decair
-        title: Hashtags em destaque
-        trendable: Pode aparecer nas tendências
-        trending_rank: 'Tendência #%{rank}'
+        title: Etiquetas em alta
+        trendable: Pode aparecer em alta
+        trending_rank: 'Em alta #%{rank}'
         usable: Pode ser utilizada
         usage_comparison: Utilizada %{today} vezes hoje, em comparação com %{yesterday} ontem
         used_by_over_week:
           one: Utilizada por uma pessoa na última semana
           other: Utilizada por %{count} pessoas na última semana
-      title: Tendências
-      trending: Em destaque
+      title: Em alta
+      trending: Em alta
     warning_presets:
       add_new: Adicionar novo
       delete: Eliminar
@@ -972,9 +976,9 @@ pt-PT:
     new_trends:
       body: 'Estes pontos precisam de ser revistos antes de poderem ser mostrados publicamente:'
       new_trending_links:
-        title: Links em destaque
+        title: Ligações em alta
       new_trending_statuses:
-        title: Publicações em destaque
+        title: Publicações em alta
       new_trending_tags:
         no_approved_tags: Não existem, actualmente, hashtags aprovadas em destaque.
         requirements: 'Qualquer um destes candidatos pode ultrapassar a #%{rank} hashtag aprovada em destaque, que é actualmente #%{lowest_tag_name} com uma pontuação de %{lowest_tag_score}.'
@@ -1053,6 +1057,9 @@ pt-PT:
       email_below_hint_html: Se o endereço de e-mail abaixo não estiver correcto, podes alterá-lo aqui e receber um novo e-mail de confirmação.
       email_settings_hint_html: O e-mail de confirmação foi enviado para %{email}. Se esse endereço de e-mail não estiver correcto, podes alterá-lo nas definições da tua conta.
       title: Configuração
+    sign_in:
+      preamble_html: Iniciar sessão com as suas credenciais de <strong>%{domain}</strong>. Se a sua conta estiver hospedada noutro servidor, não poderá iniciar sessão aqui.
+      title: Iniciar sessão em %{domain}
     sign_up:
       preamble: Com uma conta na Ciberlândia, podes seguir qualquer outra pessoa no fediverso Mastodon, independentemente do servidor onde a conta esteja alojada.
       title: Vamos lá inscrever-te na Ciberlândia.
@@ -1075,8 +1082,8 @@ pt-PT:
     following: 'Feito! Agora estás a seguir:'
     post_follow:
       close: Ou podes simplesmente fechar esta janela.
-      return: Voltar ao perfil do utilizador
-      web: Voltar à página inicial
+      return: Mostrar perfil do utilizador
+      web: Ir para a página na teia
     title: Seguir %{acct}
   challenge:
     confirm: Continuar
@@ -1097,9 +1104,9 @@ pt-PT:
       about_x_months: "%{count} meses"
       about_x_years: "%{count} anos"
       almost_x_years: "%{count} anos"
-      half_a_minute: Justo agora
+      half_a_minute: Agora mesmo
       less_than_x_minutes: "%{count} meses"
-      less_than_x_seconds: Justo agora
+      less_than_x_seconds: Agora mesmo
       over_x_years: "%{count} anos"
       x_days: "%{count} dias"
       x_minutes: "%{count} minutos"
@@ -1112,7 +1119,7 @@ pt-PT:
     proceed: Apagar conta
     success_msg: A tua conta foi apagada do nosso servidor
     warning:
-      before: 'Antes de continuar, por favor lê cuidadosamente estas notas:'
+      before: 'Antes de continuares, por favor lê cuidadosamente estas notas:'
       caches: O conteúdo que foi armazenado em cache por outras instâncias pode persistir
       data_removal: As tuas publicações e outros dados vão ser permanentemente apagados
       email_change_html: Podes <a href="%{path}">mudar o teu endereço de e-mail</a> sem apagar a tua conta
@@ -1137,7 +1144,7 @@ pt-PT:
       created_at: Data
       description_html: Estas são acções tomadas contra a tua conta e advertências que te foram enviadas pela equipa da Ciberlândia.
       recipient: Endereçado a
-      reject_appeal: Rejeitar recurso
+      reject_appeal: Indeferir recurso
       status: 'Publicação #%{id}'
       status_removed: Publicação já apagada do sistema
       title: "%{action} de %{date}"
@@ -1163,7 +1170,7 @@ pt-PT:
     '422':
       content: "A verificação de segurança falhou. \nDesactivaste o uso de cookies?"
       title: A verificação de segurança falhou
-    '429': Desacelerado
+    '429': Demasiados pedidos
     '500':
       content: Houve um erro interno do servidor.
       title: Esta página não está bem
@@ -1191,7 +1198,7 @@ pt-PT:
     add_new: Adicionar nova
     errors:
       limit: Já atingiste o limite máximo de hashtags
-    hint_html: "<strong>O que são hashtags em destaque?</strong> São mostradas de forma destacada no teu perfil público e permitem que as pessoas consultem as tuas publicações com essas hashtags. São uma óptima ferramenta para organizar processos criativos ou projetos de longa duração."
+    hint_html: "<strong>O que são hashtags em destaque?</strong> São mostradas de forma destacada no teu perfil público e permitem que as pessoas consultem as tuas publicações com essas hashtags. São uma óptima ferramenta para organizar processos criativos ou projectos de longa duração."
   filters:
     contexts:
       account: Perfis
@@ -1310,7 +1317,7 @@ pt-PT:
     authentication_methods:
       otp: aplicação de autenticação de dois factores
       password: palavra-passe
-      sign_in_token: código de segurança por e-mail
+      sign_in_token: código de segurança por correio electrónico
       webauthn: chaves de segurança
     description_html: Se vês actividade que não reconheces, considera mudar a tua palavra-passe e activar a autenticação de dois factores.
     empty: Sem historial de autenticação disponível
@@ -1360,7 +1367,7 @@ pt-PT:
     carry_mutes_over_text: Este utilizador migrou de %{acct}, que tinhas silenciado.
     copy_account_note_text: 'Este utilizador migrou de %{acct}, e estas são as tuas notas anteriores:'
   navigation:
-    toggle_menu: Abrir/fechar menu
+    toggle_menu: Alternar o menu
   notification_mailer:
     admin:
       report:
@@ -1368,9 +1375,9 @@ pt-PT:
       sign_up:
         subject: "%{name} inscreveu-se"
     favourite:
-      body: 'O teu post foi adicionado aos favoritos por %{name}:'
-      subject: "%{name} adicionou o teu post aos favoritos"
-      title: Novo favorito
+      body: 'A sua publicação foi adicionada aos marcadores por %{name}:'
+      subject: "%{name} adicionou a sua publicação aos marcadores"
+      title: Novo marcador
     follow:
       body: "%{name} está agora a seguir-te!"
       subject: "%{name} começou a seguir-te"
@@ -1388,9 +1395,9 @@ pt-PT:
     poll:
       subject: Uma sondagem realizada por %{name} terminou
     reblog:
-      body: 'O teu post foi partilhado por %{name}:'
-      subject: "%{name} partilhou o teu post"
-      title: Nova partilha
+      body: 'A sua publicação foi reforçada por %{name}:'
+      subject: "%{name} reforçou a sua publicação"
+      title: Novo reforço
     status:
       subject: "%{name} acabou de publicar"
     update:
@@ -1428,7 +1435,7 @@ pt-PT:
       already_voted: Tu já votaste nesta sondagem
       duplicate_options: contém itens duplicados
       duration_too_long: está demasiado à frente no futuro
-      duration_too_short: é demasiado cedo
+      duration_too_short: é demasiado em cima da hora
       expired: A sondagem já terminou
       invalid_choice: A opção de voto escolhida não existe
       over_character_limit: não pode ter mais do que %{max} caracteres cada um
@@ -1442,7 +1449,7 @@ pt-PT:
     title: Termos de Serviço e Política de Privacidade
   reactions:
     errors:
-      limit_reached: Limite de reações diferentes atingido
+      limit_reached: Alcançado limite de reações diferentes
       unrecognized_emoji: não é um emoji reconhecido
   relationships:
     activity: Actividade da conta
@@ -1510,13 +1517,13 @@ pt-PT:
       firefox_os: SO Firefox
       ios: iOS
       linux: Linux
-      mac: Mac
-      other: Plataforma desconhecida
+      mac: macOS
+      other: plataforma desconhecida
       windows: Windows
       windows_mobile: Windows Mobile
       windows_phone: Windows Phone
     revoke: Revogar
-    revoke_success: Sessão revogada com sucesso
+    revoke_success: Sessão correctamente revogada
     title: Sessões
     view_authentication_history: Ver o historial de autenticação da tua conta
   settings:
@@ -1530,7 +1537,7 @@ pt-PT:
     development: API
     edit_profile: Editar perfil
     export: Exportar dados
-    featured_tags: Hashtags destacadas
+    featured_tags: Etiquetas destacadas
     import: Importar
     import_and_export: Importar e exportar
     migrate: Migrar a tua conta
@@ -1554,11 +1561,11 @@ pt-PT:
       video:
         one: "%{count} vídeo"
         other: "%{count} vídeos"
-    boosted_from_html: Partilhadas de %{acct_link}
+    boosted_from_html: Reforçado por %{acct_link}
     content_warning: 'Aviso de conteúdo: %{warning}'
-    default_language: Mesmo do idioma da interface
+    default_language: A mesma língua que a da interface
     disallowed_hashtags:
-      one: 'continha uma hashtag proibida: %{tags}'
+      one: 'continha uma #etiqueta proibida: %{tags}'
       other: 'continha as hashtags proibidas: %{tags}'
     edited_at_html: Editado em %{date}
     errors:
@@ -1586,8 +1593,8 @@ pt-PT:
     title: '%{name}: "%{quote}"'
     visibilities:
       direct: Direto
-      private: Mostrar apenas para seguidores
-      private_long: Mostrar apenas para seguidores
+      private: Só para seguidores
+      private_long: Mostrar só aos seguidores
       public: Público
       public_long: Todos podem ver
       unlisted: Público, mas não mostrar nas timelines públicas
@@ -1628,17 +1635,17 @@ pt-PT:
     min_reblogs: Manter os toots com número de re-publicações maior que
     min_reblogs_hint: Não apaga nenhuma das tuas publicações que tenha sido partilhada mais do que este número de vezes. Deixa em branco para apagar as publicações, independentemente do número de partilhas
   stream_entries:
-    pinned: Toot fixado
-    reblogged: partilhado
-    sensitive_content: Conteúdo sensível
+    pinned: Publicação afixada
+    reblogged: reforçada
+    sensitive_content: Conteúdo problemático
   strikes:
     errors:
-      too_late: É tarde demais para apelar desta advertência
+      too_late: É tarde demais para recorrer desta advertência
   tags:
     does_not_match_previous_name: não coincide com o nome anterior
   themes:
     contrast: Mastodon (Elevado contraste)
-    default: Mastodon
+    default: Mastodon (Escuro)
     mastodon-light: Mastodon (Claro)
   time:
     formats:
@@ -1668,10 +1675,10 @@ pt-PT:
       title: Recurso aceite
     appeal_rejected:
       explanation: O recurso à advertência contra a tua conta de %{strike_date}, que enviaste a %{appeal_date}, foi rejeitado.
-      subject: O seu recurso de %{date} foi rejeitado
-      title: Recurso rejeitado
+      subject: O teu recurso de %{date} não foi aceite
+      title: Recurso não aceite
     backup_ready:
-      explanation: Pediste uma cópia completa da tua conta Mastodon. Ela já está pronta para descarregares!
+      explanation: Pediste uma cópia integral de backup da tua conta. Já está pronta para descarregar!
       subject: O teu arquivo está pronto para descarregar
       title: Arquivo de ficheiros
     suspicious_sign_in:
@@ -1683,7 +1690,7 @@ pt-PT:
       title: Novo inicio de sessão
     warning:
       appeal: Enviar um recurso
-      appeal_description: Se acreditas que é um erro, podes enviar um recurso para a equipa de %{instance}.
+      appeal_description: Se achas que é um mal-entendido, podes enviar um recurso para a equipa de %{instance}.
       categories:
         spam: Spam
         violation: O conteúdo viola estas normas da comunidade
