@@ -492,6 +492,7 @@ pt-PT:
         private_comment_description_html: 'Para o ajudar a rastrear a origem dos bloqueios importados, estes serão criados com o seguinte comentário privado: <q>%{comment}</q>'
         private_comment_template: Importado de %{source} em %{date}
         title: Importar bloqueios de domínio
+      invalid_domain_block: 'Um ou mais blocos de domínio foram ignorados devido o(s) seguinte(s) erro(s): %{error}'
       new:
         title: Importar bloqueios de domínio
       no_file: Nenhum ficheiro selecionado
@@ -625,11 +626,20 @@ pt-PT:
         delete_description_html: As publicações denunciadas vão ser eliminadas e uma advertência vai ser registada para ajudar a escalar acções em futuras infracções.
         mark_as_sensitive_description_html: Os media nas publicações denunciadas vão ser marcados como sensíveis e uma advertência será registada para ajudar a escalar acções em futuras infracções.
         other_description_html: Ver mais opções para controlar o comportamento da conta e personalizar a comunicação para a conta denunciada.
+<<<<<<< HEAD
         resolve_description_html: Nenhuma acção vai ser tomada contra a conta denunciada, nenhuma advertência será registada, e a denuncia será fechada.
         silence_description_html: O perfil será visível apenas para aqueles que já o seguem ou o procurem manualmente, limitando severamente o seu alcance. Pode sempre ser revertido.
         suspend_description_html: O perfil e todo o seu conteúdo tornar-se-ão inacessíveis até serem eventualmente apagados. A interacção com a conta será impossível. Reversível no prazo de 30 dias.
       actions_description_html: Decide a acção a tomar para resolver esta denúncia. Se decidires por uma acção punitiva contra a conta denunciada, vai ser enviado um e-mail de notificação, exceto quando seleccionada a categoria <strong>Spam</strong>.
       add_to_report: Juntar à denúncia
+=======
+        resolve_description_html: Nenhuma ação será tomada contra a conta denunciada, não será registada nenhuma reprimenda, e a denúncia será fechada.
+        silence_description_html: O perfil será visível apenas para aqueles que já o seguem ou o procurem manualmente, limitando fortemente o seu alcance. Pode sempre ser revertido. Encerrar todas as denúncias contra esta conta.
+        suspend_description_html: A conta e todo o seu conteúdo ficará inacessível e, eventualmente apagado, pelo que interagir com ela será impossível. Reversível durante 30 dias. Encerra todas as denúncias contra esta conta.
+      actions_description_html: Decida a ação a tomar para resolver esta denúncia. Se decidir por uma ação punitiva contra a conta denunciada, um e-mail de notificação será enviado, excetuando quando selecionada a categoria <strong>Spam</strong>.
+      actions_description_remote_html: Decida quais as medidas a tomar para resolver esta denúncia. Isso apenas afetará como <strong>o seu</strong> servido comunica com esta conta remota e gere o seu conteúdo.
+      add_to_report: Adicionar mais à denúncia
+>>>>>>> upstream/main
       are_you_sure: Tem a certeza?
       assign_to_self: Atribuída a mim
       assigned: Atribuída ao moderador
@@ -639,6 +649,7 @@ pt-PT:
       comment:
         none: Nenhum
       comment_description_html: 'Para fornecer mais informações, %{name} escreveu:'
+      confirm_action: Confirmar a ação de moderação contra @%{acct}
       created_at: Denunciado
       delete_and_resolve: Eliminar publicações
       forwarded: Encaminhado
@@ -654,8 +665,14 @@ pt-PT:
         delete: Eliminar
         placeholder: Descreve as acções que foram tomadas ou quaisquer outras actualizações relacionadas...
         title: Notas
+<<<<<<< HEAD
       notes_description_html: Visualiza e deixa anotações para outros moderadores e para ti no futuro
       quick_actions_description_html: 'Toma uma acção rápida ou vê o conteúdo denunciado abaixo:'
+=======
+      notes_description_html: Visualize e deixe anotações para outros moderadores e para si próprio no futuro
+      processed_msg: 'Relatório #%{id} processado com sucesso'
+      quick_actions_description_html: 'Tome uma ação rápida ou deslize para baixo para ver o conteúdo denunciado:'
+>>>>>>> upstream/main
       remote_user_placeholder: o utilizador remoto de %{instance}
       reopen: Reabrir denúncia
       report: 'Denúncia #%{id}'
@@ -667,9 +684,28 @@ pt-PT:
       status: Estado
       statuses: Conteúdo denunciado
       statuses_description_html: O conteúdo ofensivo será citado na comunicação com a conta denunciada
+      summary:
+        action_preambles:
+          delete_html: 'Você está prestes a <strong>remover</strong> algumas das publicações de <strong>@%{acct}</strong>. Isto irá:'
+          mark_as_sensitive_html: 'Você está prestes a <strong>marcar</strong> alguns dos posts de <strong>@%{acct}</strong>como <strong>sensível</strong>. Isto irá:'
+          silence_html: 'Você está prestes a <strong>limitar a conta do</strong> <strong>@%{acct}</strong>. Isto irá:'
+          suspend_html: 'Você está prestes a <strong>suspender a conta de</strong> <strong>@%{acct}</strong>. Isto irá:'
+        actions:
+          delete_html: Excluir as publicações ofensivas
+          mark_as_sensitive_html: Marcar a mídia dos posts ofensivos como sensível
+          silence_html: Limitar firmemente o alcance de <strong>@%{acct}</strong>, tornando seus perfis e conteúdos apenas visíveis para pessoas que já os estão seguindo ou olhando manualmente no perfil
+          suspend_html: Suspender <strong>@%{acct}</strong>, tornando seu perfil e conteúdo inacessíveis e impossível de interagir com
+        close_report: 'Marcar relatório #%{id} como resolvido'
+        close_reports_html: Marcar <strong>todos os</strong> relatórios contra <strong>@%{acct}</strong> como resolvidos
+        delete_data_html: Excluir <strong>@%{acct}</strong>perfil e conteúdo 30 dias a menos que sejam dessuspensos
+        preview_preamble_html: "<strong>@%{acct}</strong> receberá um aviso com o seguinte conteúdo:"
+        record_strike_html: Registre um ataque contra <strong>@%{acct}</strong> para ajudá-lo a escalar futuras violações desta conta
+        send_email_html: Enviar <strong>@%{acct}</strong> um e-mail de aviso
+        warning_placeholder: Argumentos adicionais opcionais para a acção de moderação.
       target_origin: Origem da conta denunciada
       title: Denúncias
       unassign: Não atribuir
+      unknown_action_msg: 'Ação desconhecida: %{action}'
       unresolved: Por resolver
       updated_at: Atualizado
       view_profile: Ver perfil
@@ -764,6 +800,8 @@ pt-PT:
         preamble: Revelar conteúdos interessantes é fundamental para a entrada de novos utilizadores que podem não conhecer ninguém no Mastodon. Controle como os vários recursos de descoberta funcionam no seu servidor.
         profile_directory: Quem por cá anda
         public_timelines: Timelines públicas
+        publish_discovered_servers: Publicar servidores descobertos
+        publish_statistics: Publicar estatísticas
         title: Descobrir
         trends: Em alta
       domain_blocks:
@@ -1020,6 +1058,8 @@ pt-PT:
   auth:
     apply_for_account: Pedir uma conta
     change_password: Palavra-passe
+    confirmations:
+      wrong_email_hint: Se este endereço de e-mail não estiver correcto, podes alterá-lo nas configurações da conta.
     delete_account: Apagar conta
     delete_account_html: Se quiseres eliminar a tua conta, podes <a href="%{path}">continuar aqui</a> para confirmar.
     description:
@@ -1453,6 +1493,9 @@ pt-PT:
       unrecognized_emoji: não é um emoji reconhecido
   relationships:
     activity: Actividade da conta
+    confirm_follow_selected_followers: Tens a certeza que queres seguir os seguidores seleccionados?
+    confirm_remove_selected_followers: Tens a certeza que queres seguir os seguidores seleccionados?
+    confirm_remove_selected_follows: Tens a certeza que queres remover os seguidores seleccionados?
     dormant: Inactivo
     follow_selected_followers: Seguir seguidores seleccionados
     followers: Seguidores
@@ -1714,9 +1757,9 @@ pt-PT:
       title:
         delete_statuses: Publicações removidas
         disable: Conta congelada
-        mark_statuses_as_sensitive: Publicações marcadas como sensíveis
+        mark_statuses_as_sensitive: Publicações marcadas como problemáticas
         none: Aviso
-        sensitive: Conta marcada como sensível
+        sensitive: Conta marcada como problemática
         silence: Conta limitada
         suspend: Conta suspensa
     welcome:
@@ -1730,7 +1773,7 @@ pt-PT:
       subject: Bem-vindo ao Mastodon
       title: Olá, %{name}!
   users:
-    follow_limit_reached: Não podes seguir mais do que %{limit} pessoas
+    follow_limit_reached: Não pode seguir mais do que %{limit} pessoas
     invalid_otp_token: Código de autenticação inválido
     otp_lost_help_html: Se perdeste o acesso a ambos, podes entrar em contacto com %{email}
     seamless_external_login: Estás ligado através de um serviço externo. Por isso, as configurações da palavra-passe e do e-mail não estão disponíveis.

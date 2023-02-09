@@ -2,7 +2,7 @@
 pt-PT:
   devise:
     confirmations:
-      confirmed: O teu endereço de e-mail foi confirmado com sucesso.
+      confirmed: O seu endereço correio electrónico foi correctamente confirmado.
       send_instructions: Vais receber um e-mail com as instruções para confirmar o teu endereço de e-mail dentro de alguns minutos. Por favor, verifica a caixa de spam se não recebeu o e-mail.
       send_paranoid_instructions: Se o teu endereço de e-mail já existir na nossa base de dados, vais receber um e-mail com as instruções de confirmação dentro de alguns minutos. Por favor, verifica a caixa de spam se não recebeu o e-mail.
     failure:
@@ -70,24 +70,24 @@ pt-PT:
           subject: 'Ciberlândia: Chave de segurança eliminada'
           title: Uma das suas chaves de segurança foi eliminada
       webauthn_disabled:
-        explanation: A autenticação com chave de segurança foi desativada para sua conta. É agora possível aceder à sua conta utilizando apenas o token gerado pelo aplicativo TOTP pareado.
-        subject: 'Ciberlândia: Autenticação com chave de segurança desativada'
-        title: Chaves de segurança desativadas
+        explanation: A autenticação com chave de segurança foi desactivada. Agora podes aceder à tua conta apenas com o token gerado pela aplicação TOTP.
+        subject: 'Ciberlândia: Autenticação com chave de segurança desactivada'
+        title: Chaves de segurança desactivadas
       webauthn_enabled:
-        explanation: A autenticação com chave de segurança foi ativada para sua conta. A sua chave de segurança pode agora ser utilizada para aceder à sua conta.
-        subject: 'Ciberlândia: Autenticação com chave de segurança ativada'
-        title: Chaves de segurança ativadas
+        explanation: A autenticação com chave de segurança foi activada. A tua chave pode agora ser empregue para acederes à tua conta.
+        subject: 'Ciberlândia: Autenticação com chave de segurança activada'
+        title: Chaves de segurança activadas
     omniauth_callbacks:
       failure: Não foi possível autenticar %{kind} porque "%{reason}".
-      success: Autenticado com sucesso na conta %{kind}.
+      success: Autenticado correctamente na conta %{kind}.
     passwords:
-      no_token: Não pode aceder a esta página se não vier através do link enviado por e-mail para alteração da sua palavra-passe. Se usou esse link para chegar aqui, por favor verifique que o endereço URL atual é igual ao que foi enviado no e-mail.
+      no_token: Não pode aceder a esta página se não vier através da ligação enviada por e-mail para alteração da sua palavra-passe. Se de facto usou essa ligação para chegar até aqui, queira garantir de que usou o endereço URL completo.
       send_instructions: Vai receber um e-mail com instruções para alterar a palavra-passe dentro de alguns minutos.
-      send_paranoid_instructions: Se o seu endereço de e-mail existir na nossa base de dados, vai receber um link para recuperar a palavra-passe dentro de alguns minutos.
+      send_paranoid_instructions: Se o seu endereço de e-mail existir na nossa base de dados, dentro de alguns minutos irá receber uma ligação para recuperar a palavra-passe.
       updated: A tua palavra-passe foi alterada. Estás agora autenticado na tua conta.
       updated_not_active: A tua palavra-passe foi alterada.
     registrations:
-      destroyed: A tua conta foi cancelada. Adeus!
+      destroyed: A tua conta foi apagada. Adeus!
       signed_up: Damos-te as boas vindas! A tua conta está à tua espera.
       signed_up_but_inactive: A tua conta foi registada, mas ainda não está activa.
       signed_up_but_locked: A sua conta foi registada com sucesso. No entanto, não pudemos iniciar a sua sessão porque a conta está bloqueada.
@@ -111,5 +111,5 @@ pt-PT:
       not_found: não encontrado
       not_locked: não estava bloqueada
       not_saved:
-        one: '1 erro impediu este %{resource} de ser guardado:'
+        one: 'Um erro impediu este %{resource} de ser guardado:'
         other: "%{count} erros impediram este %{resource} de ser guardado:"
