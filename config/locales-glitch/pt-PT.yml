@@ -19,7 +19,7 @@ pt-PT:
         description_html: Estás prestes a importar uma lista de bloqueios de domínios. Revê essa lista com cuidado, especialmente se não foste tu a criá-la.
         existing_relationships_warning: Relações de seguidores existentes
         private_comment_description_html: 'Para te ajudar a seguir de onde vêm os bloqueios importados, cada bloqueio importado vai ser criado com um comentário privado: <q>%{comment}</q>'
-        private_comment_template: 'Importado de %{source} em %{date}'
+        private_comment_template: Importado de %{source} em %{date}
         title: Importar bloqueios de domínio
       new:
         title: Importar bloqueios de domínio
@@ -33,12 +33,12 @@ pt-PT:
         title: Enable keybase integration
       flavour_and_skin:
         title: Flavour and skin
-      outgoing_spoilers:
-        desc_html: When federating toots, add this content warning to toots that do not have one. It is useful if your server is specialized in content other servers might want to have under a Content Warning. Media will also be marked as sensitive.
-        title: Content warning for outgoing toots
       hide_followers_count:
         desc_html: Do not show followers count on user profiles
         title: Hide followers count
+      outgoing_spoilers:
+        desc_html: When federating toots, add this content warning to toots that do not have one. It is useful if your server is specialized in content other servers might want to have under a Content Warning. Media will also be marked as sensitive.
+        title: Content warning for outgoing toots
       show_reblogs_in_public_timelines:
         desc_html: Show public boosts of public toots in local and public timelines.
         title: Show boosts in public timelines
@@ -52,9 +52,9 @@ pt-PT:
     captcha_confirmation:
       hint_html: Só mais um passo! Para confirmares a tua conta, este servidor exige que resolvas um CAPTCHA. Podes <a href="/about/more">contactar a administração do servidor</a> se tiveres questões ou se precisares de assistência para confirmar a tua conta.
       title: Verificação
+  compose_form:
+    spoiler: Esconder o texto por trás de um aviso de conteúdo
   generic:
     use_this: Usar isto
   settings:
     flavours: Temas do interface
-  compose_form:
-    spoiler: Esconder o texto por trás de um aviso de conteúdo
