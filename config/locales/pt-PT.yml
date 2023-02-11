@@ -626,20 +626,12 @@ pt-PT:
         delete_description_html: As publicações denunciadas vão ser eliminadas e uma advertência vai ser registada para ajudar a escalar acções em futuras infracções.
         mark_as_sensitive_description_html: Os media nas publicações denunciadas vão ser marcados como sensíveis e uma advertência será registada para ajudar a escalar acções em futuras infracções.
         other_description_html: Ver mais opções para controlar o comportamento da conta e personalizar a comunicação para a conta denunciada.
-<<<<<<< HEAD
         resolve_description_html: Nenhuma acção vai ser tomada contra a conta denunciada, nenhuma advertência será registada, e a denuncia será fechada.
         silence_description_html: O perfil será visível apenas para aqueles que já o seguem ou o procurem manualmente, limitando severamente o seu alcance. Pode sempre ser revertido.
         suspend_description_html: O perfil e todo o seu conteúdo tornar-se-ão inacessíveis até serem eventualmente apagados. A interacção com a conta será impossível. Reversível no prazo de 30 dias.
       actions_description_html: Decide a acção a tomar para resolver esta denúncia. Se decidires por uma acção punitiva contra a conta denunciada, vai ser enviado um e-mail de notificação, exceto quando seleccionada a categoria <strong>Spam</strong>.
+      actions_description_remote_html: Decide a acção a tomar para resolver esta denúncia. Isto só vai afectar como <strong>o teu</strong> servidor comunica com esta conta remota e lida com o seu conteúdo.
       add_to_report: Juntar à denúncia
-=======
-        resolve_description_html: Nenhuma ação será tomada contra a conta denunciada, não será registada nenhuma reprimenda, e a denúncia será fechada.
-        silence_description_html: O perfil será visível apenas para aqueles que já o seguem ou o procurem manualmente, limitando fortemente o seu alcance. Pode sempre ser revertido. Encerrar todas as denúncias contra esta conta.
-        suspend_description_html: A conta e todo o seu conteúdo ficará inacessível e, eventualmente apagado, pelo que interagir com ela será impossível. Reversível durante 30 dias. Encerra todas as denúncias contra esta conta.
-      actions_description_html: Decida a ação a tomar para resolver esta denúncia. Se decidir por uma ação punitiva contra a conta denunciada, um e-mail de notificação será enviado, excetuando quando selecionada a categoria <strong>Spam</strong>.
-      actions_description_remote_html: Decida quais as medidas a tomar para resolver esta denúncia. Isso apenas afetará como <strong>o seu</strong> servido comunica com esta conta remota e gere o seu conteúdo.
-      add_to_report: Adicionar mais à denúncia
->>>>>>> upstream/main
       are_you_sure: Tem a certeza?
       assign_to_self: Atribuída a mim
       assigned: Atribuída ao moderador
@@ -665,14 +657,9 @@ pt-PT:
         delete: Eliminar
         placeholder: Descreve as acções que foram tomadas ou quaisquer outras actualizações relacionadas...
         title: Notas
-<<<<<<< HEAD
       notes_description_html: Visualiza e deixa anotações para outros moderadores e para ti no futuro
+      processed_msg: 'Relatório #%{id} processado'
       quick_actions_description_html: 'Toma uma acção rápida ou vê o conteúdo denunciado abaixo:'
-=======
-      notes_description_html: Visualize e deixe anotações para outros moderadores e para si próprio no futuro
-      processed_msg: 'Relatório #%{id} processado com sucesso'
-      quick_actions_description_html: 'Tome uma ação rápida ou deslize para baixo para ver o conteúdo denunciado:'
->>>>>>> upstream/main
       remote_user_placeholder: o utilizador remoto de %{instance}
       reopen: Reabrir denúncia
       report: 'Denúncia #%{id}'
